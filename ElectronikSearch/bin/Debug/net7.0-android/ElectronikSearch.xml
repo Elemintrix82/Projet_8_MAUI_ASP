@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ElectronikSearch</name>
+    </assembly>
+    <members>
+        <member name="T:ElectronikSearch.ViewModel.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:ElectronikSearch.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:ElectronikSearch.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="T:ElectronikSearch.ViewModel.ProductDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductDetailsViewModel.Product">
+            <inheritdoc cref="F:ElectronikSearch.ViewModel.ProductDetailsViewModel.product"/>
+        </member>
+        <member name="F:ElectronikSearch.ViewModel.ProductDetailsViewModel.openProductCommand">
+            <summary>The backing field for <see cref="P:ElectronikSearch.ViewModel.ProductDetailsViewModel.OpenProductCommand"/>.</summary>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductDetailsViewModel.OpenProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ElectronikSearch.ViewModel.ProductDetailsViewModel.OpenProductAsync(ElectronikSearch.Model.Product)"/>.</summary>
+        </member>
+        <member name="T:ElectronikSearch.ViewModel.ProductsSearchViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductsSearchViewModel.IsSearchTermsHistoryEmpty">
+            <inheritdoc cref="F:ElectronikSearch.ViewModel.ProductsSearchViewModel.isSearchTermsHistoryEmpty"/>
+        </member>
+        <member name="T:ElectronikSearch.ViewModel.ProductsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductsViewModel.IsRefreshing">
+            <inheritdoc cref="F:ElectronikSearch.ViewModel.ProductsViewModel.isRefreshing"/>
+        </member>
+        <member name="F:ElectronikSearch.ViewModel.ProductsViewModel.getRandomProductsCommand">
+            <summary>The backing field for <see cref="P:ElectronikSearch.ViewModel.ProductsViewModel.GetRandomProductsCommand"/>.</summary>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductsViewModel.GetRandomProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ElectronikSearch.ViewModel.ProductsViewModel.GetRandomProductsAsync"/>.</summary>
+        </member>
+        <member name="F:ElectronikSearch.ViewModel.ProductsViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:ElectronikSearch.ViewModel.ProductsViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:ElectronikSearch.ViewModel.ProductsViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ElectronikSearch.ViewModel.ProductsViewModel.GoToDetailsAsync(ElectronikSearch.Model.Product)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Product">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Product" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsSearchTermsHistoryEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsSearchTermsHistoryEmpty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Product">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Product" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsSearchTermsHistoryEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsSearchTermsHistoryEmpty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsSearchTermsHistoryNotEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsSearchTermsHistoryNotEmpty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+    </members>
+</doc>

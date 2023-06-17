@@ -1,0 +1,1 @@
+C:\Users\f\Documents\Projet_C#\ElectronikSearch\ElectronikSearch.csproj;x64
